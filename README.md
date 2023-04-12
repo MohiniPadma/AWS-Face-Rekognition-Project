@@ -1,18 +1,19 @@
 # Building a Serverless Image Rekognition Software
-Services i have used:
-AWS S3:
+# Services i have used:
+
+# AWS S3:
 
        Amazon Simple Storage Service (Amazon S3) is storage for the Internet. It is designed to make web-scale computing easier. Amazon S3 has a simple web services interface that you can use to store and retrieve any amount of data, at any time, from anywhere on the web.
 
-IAM ROLE:
+# IAM ROLE:
 
                AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. You use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources. 
                
- Amazon Rekognition: 
+ # Amazon Rekognition: 
  
                     Amazon Rekognition makes it easy to add image and video analysis to your applications. You just provide an image or video to the Amazon Rekognition API, and the service can identify objects, people, text, scenes, and activities. It can detect any inappropriate content as well. Amazon Rekognition also provides highly accurate facial analysis, face comparison, and face search capabilities.
                     
-AWS LAMBDA:
+# AWS LAMBDA:
 
                     AWS Lambda function reads data from the stream and sends the data in real-time to an Amazon DynamoDB table to be stored. The delivery stream archives the events in an Amazon S3 bucket and sends the data to a Kinesis Data Analytics application for processing. Once the data is processed, it is sent to Kinesis Data Streams.
                     
